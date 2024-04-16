@@ -1,6 +1,6 @@
 let usuario = prompt("Escriba su nombre");
-let saldoDeCuenta = 1000;
-let montoARetirar = prompt("¿Cuanto desea retirar?");
+let saldoDeCuenta = 20000;
+let montoARetirar = prompt(`Hola ${usuario} ¿Cuanto desea retirar?`);
 
 if(isNaN(montoARetirar) || montoARetirar <= 0){
     alert("Ingrese un numero valido mayor que 0: ");
